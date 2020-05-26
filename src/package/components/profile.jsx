@@ -124,7 +124,6 @@ const DeveloperProfileComponent = ({
                     <DeveloperProfileContext.Provider value={context}>
                         <Banner
                             customizationOptions={options.customization}
-                            onCustomizationChanged={onCustomizationChanged}
                         />
                         {additionalNodes?.beforeCards}
                         <Cards cardsOrder={options.customization?.cardsOrder} side={side} />

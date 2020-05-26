@@ -110,10 +110,7 @@ const Content = ({
     isEditing
 }) => {
     const handleValueChange = useCallback(
-        (name) => (value) => {
-            console.log(`[Edit Dialog] Setting field ${name} to value.`, { value });
-            return setFieldValue(name, value);
-        },
+        (name) => (value) => setFieldValue(name, value),
         [setFieldValue]
     );
     const toggleValue = useCallback((name) => () => setFieldValue(name, !values[name]), [setFieldValue, values]);
