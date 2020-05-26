@@ -1,0 +1,284 @@
+{
+  "basics": {
+    "name": "Jonathan Gervais",
+    "label": "Frontend Dev Superhero",
+    "picture": "https://avatars2.githubusercontent.com/u/19430298",
+    "email": "gervjo@gmail.com",
+    "phone": "",
+    "website": "https://github.com/gervjo",
+    "summary": "Frontend Superhero",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Matane",
+      "countryCode": "CA",
+      "region": "Qc"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "gervjo",
+        "url": "https://github.com/gervjo"
+      },
+      {
+        "network": "Linkedin",
+        "username": "jonathan-gervais",
+        "url": "https://www.linkedin.com/in/jonathan-gervais/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Baseline",
+      "position": "Front-end developer",
+      "website": "https://www.baseline.io",
+      "startDate": "2018-01-01",
+      "summary": "Responsible for the development of a reusable components and Redux\nconnected containers library build with React to be used by \"brown field\" web\napplication.\nResponsible for the development of a green field web app (serverless) and a\nmobile app both based on React/React-Native & friends.",
+      "location": "Work remotely",
+      "highlights": [
+        "Lead Front-end dev"
+      ]
+    },
+    {
+      "name": "Maple Inside",
+      "position": "Front-end developer",
+      "website": "",
+      "startDate": "2017-04-01",
+      "endDate": "2017-12-01",
+      "summary": "Responsible for the development of prototypes and web applications based on\nthe React, Redux and GraphQL libraries. Everything we developed was based\non a microservices architecture.",
+      "location": "Quebec city, Qc, CA",
+      "highlights": []
+    },
+    {
+      "name": "DashThis",
+      "position": "Front-end developer",
+      "website": "https://dashthis.com/",
+      "startDate": "2016-05-01",
+      "endDate": "2017-02-01",
+      "summary": " ",
+      "location": "Quebec city, Qc, CA",
+      "highlights": []
+    },
+    {
+      "name": "DL Innov",
+      "position": "Front-end developer",
+      "website": "",
+      "startDate": "2015-07-01",
+      "endDate": "2016-02-01",
+      "summary": "UI conception and development (front-end & back-end) of sales pages.\nMaintenance and continuous development of legacy platforms.",
+      "location": "Quebec city, Qc, CA",
+      "highlights": []
+    },
+    {
+      "name": "Crakmedia",
+      "position": "Front-end developer",
+      "website": "",
+      "startDate": "2012-08-01",
+      "endDate": "2015-07-01",
+      "summary": "As a Front-End developer, I was in charge of building different high traffic (1M\n+ monthly unique views) websites and sales pages. I was also responsible for\nthe development of different internal tools used by many internal departments.",
+      "location": "Quebec city, Qc, CA",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Dodgeball Matane",
+      "position": "Director",
+      "website": "https://www.facebook.com/groups/2257422927907601/",
+      "startDate": "2019-05-01",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "organization": "Fédération Québécoise de Dodgeball",
+      "position": "Member of the Board of directors",
+      "website": "https://www.facebook.com/DodgeballFQD/",
+      "startDate": "2020-04-01",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Collège O'sullivan",
+      "area": "Technique d'intégration Web",
+      "studyType": "AEC",
+      "startDate": "2011-08-01",
+      "endDate": "2012-08-01"
+    },
+    {
+      "institution": "CFP des moulins",
+      "area": "Électromécanique",
+      "studyType": "",
+      "startDate": "2004",
+      "endDate": "2006"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "React",
+      "level": "Master",
+      "value": 80,
+      "keywords": [
+        "React Native",
+        "Javascript",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Redux",
+      "level": "Master",
+      "value": 80,
+      "keywords": []
+    },
+    {
+      "name": "NodeJS",
+      "level": "Intermediate",
+      "value": 40,
+      "keywords": [
+        "workers"
+      ]
+    },
+    {
+      "name": "Cypress",
+      "level": "Intermediate",
+      "value": 50,
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "French",
+      "value": 100,
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "value": 80,
+      "fluency": "Comfortable"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Burritos",
+      "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+    },
+    {
+      "name": "Permaculture",
+      "gifUrl": "https://media.giphy.com/media/KP5J5Ss9moWaI/giphy.gif"
+    },
+    {
+      "name": "Dodgeball",
+      "gifUrl": "https://media.giphy.com/media/L2KHKeiYyLEMo/giphy.gif"
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Pokemon Masters - Sync Grid Helper",
+      "description": "Pokemon Masters - Sync Grid Helper - is a helper tool that lets users plan the usage of Sync orbs of specific pokemons from the popular video game `Pokemon Masters`. https://pokemon-masters-stuff.github.io",
+      "images": []
+    }
+  ],
+  "specific": {
+    "basics": {
+      "visaSponsorship": false,
+      "personalDescription": "From a young age, being passionate about building stuff, automation and Batman, becoming a web worker (pun intended) was a natural choice.\n\nWith a little more than 8 years of expertise in front end web development, I can now say that my passion for Batman is totally useless and hasn't brought me much professionally, except maybe for the analytical mindset (yeah, I definitely got that from Batman).\n\nThe way I see web development today is that it needs research, preparation, devotion and passion (maybe Batman taught me more than I thought).\n\nReact, Redux, Node.js, these are all part of my playground at the moment."
+    },
+    "dreamJob": {
+      "locations": [
+        {
+          "name": "Matane, Québec"
+        }
+      ],
+      "remoteFrequency": "regularly"
+    },
+    "currentJob": {
+      "issues": {
+        "boring_management": true,
+        "boring_team": true
+      }
+    },
+    "education": {
+      "studiesLevel": 5
+    },
+    "work": {
+      "contractTypes": [
+        "permanent"
+      ],
+      "codingYears": 10,
+      "codingReason": "J'ai commencé à coder sur MS FrontPage pour ensuite migrer mes intérêts vers ActionScript 2 et depuis je n'ai jamais arrêté de m'adapter aux nouvelles technos",
+      "searchState": "activelySearching",
+      "experienceYears": 8
+    },
+    "sound": {
+      "embedUrl": "https://open.spotify.com/embed/playlist/5tZxsBkOe6A757iY1hkRlj"
+    },
+    "interestedBy": "React & friends, la permaculture et les burritos."
+  },
+  "resumeCustomization": {
+    "imageHeader": {
+      "url": "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp",
+      "alt": "Default Banner"
+    },
+    "cardsOrder": [
+      {
+        "type": "basics",
+        "variant": 4
+      },
+      {
+        "type": "projects",
+        "variant": 4
+      },
+      {
+        "type": "skills",
+        "variant": 0
+      },
+      {
+        "type": "dreamjob",
+        "variant": 4
+      },
+      {
+        "type": "experiences",
+        "variant": 4
+      },
+      {
+        "type": "studies",
+        "variant": 4
+      },
+      {
+        "type": "gifs",
+        "variant": 0
+      },
+      {
+        "type": "interestedBy",
+        "variant": 3
+      },
+      {
+        "type": "language",
+        "variant": 4
+      },
+      {
+        "type": "soundtrack",
+        "variant": 4
+      }
+    ],
+    "fields": {
+      "work": {
+        "customDateFormat": "YYYY"
+      }
+    }
+  }
+}
