@@ -42,7 +42,7 @@
     {
       "name": "Maple Inside",
       "position": "Front-end developer",
-      "website": "",
+      "website": "https://www.linkedin.com/company/maple-inside/",
       "startDate": "2017-04-01",
       "endDate": "2017-12-01",
       "summary": "Responsible for the development of prototypes and web applications based on\nthe React, Redux and GraphQL libraries. Everything we developed was based\non a microservices architecture.",
@@ -129,9 +129,26 @@
       ]
     },
     {
+      "name": "React Native",
+      "level": "Advanced",
+      "value": 70,
+      "keywords": [
+        "React Native",
+        "Javascript",
+        "Android",
+        "iOS"
+      ]
+    },
+    {
       "name": "Redux",
       "level": "Master",
       "value": 80,
+      "keywords": []
+    },
+    {
+      "name": "Typescript",
+      "level": "Intermediate",
+      "value": 50,
       "keywords": []
     },
     {
@@ -151,6 +168,16 @@
         "CSS",
         "Javascript"
       ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "value": 90
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "value": 90
     }
   ],
   "languages": [
@@ -167,16 +194,16 @@
   ],
   "interests": [
     {
-      "name": "Burritos",
-      "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
-    },
-    {
       "name": "Permaculture",
       "gifUrl": "https://media.giphy.com/media/KP5J5Ss9moWaI/giphy.gif"
     },
     {
       "name": "Dodgeball",
       "gifUrl": "https://media.giphy.com/media/L2KHKeiYyLEMo/giphy.gif"
+    },
+    {
+      "name": "Burritos",
+      "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
     }
   ],
   "references": [
@@ -195,7 +222,7 @@
   "specific": {
     "basics": {
       "visaSponsorship": false,
-      "personalDescription": "From a young age, being passionate about building stuff, automation and Batman, becoming a web worker (pun intended) was a natural choice.\n\nWith a little more than 8 years of expertise in front end web development, I can now say that my passion for Batman is totally useless and hasn't brought me much professionally, except maybe for the analytical mindset (yeah, I definitely got that from Batman).\n\nThe way I see web development today is that it needs research, preparation, devotion and passion (maybe Batman taught me more than I thought).\n\nReact, Redux, Node.js, these are all part of my playground at the moment."
+      "personalDescription": "From a young age, being passionate about building stuff, automation and Batman, becoming a web worker (pun intended) was a natural choice.\r\n\r\nWith a little more than 8 years of expertise in front end web development, I can now say that my passion for Batman is totally useless and hasn't brought me much professionally, except maybe for the analytical mindset (yeah, I definitely got that from Batman).\n\nThe way I see web development today is that it needs research, preparation, devotion and passion (maybe Batman taught me more than I thought).\n\nReact, Redux, Node.js, these are all part of my playground at the moment."
     },
     "dreamJob": {
       "locations": [
@@ -203,7 +230,7 @@
           "name": "Matane, Québec"
         }
       ],
-      "remoteFrequency": "regularly"
+      "remoteFrequency": ""
     },
     "currentJob": {
       "issues": {
@@ -219,7 +246,7 @@
         "permanent"
       ],
       "codingYears": 10,
-      "codingReason": "J'ai commencé à coder sur MS FrontPage pour ensuite migrer mes intérêts vers ActionScript 2 et depuis je n'ai jamais arrêté de m'adapter aux nouvelles technos",
+      "codingReason": "I started coding using MS Frontpage and then migrated my interests towards ActionScript 2. Since then I've never stopped adapting myself to newer technologies.",
       "searchState": "activelySearching",
       "experienceYears": 8
     },
@@ -264,7 +291,7 @@
       },
       {
         "type": "interestedBy",
-        "variant": 3
+        "variant": 1
       },
       {
         "type": "language",
@@ -278,6 +305,49 @@
     "fields": {
       "work": {
         "customDateFormat": "YYYY"
+      }
+    },
+    "theme": {
+      "palette": {
+        "primary": {
+          "50": "#ecf8f7",
+          "100": "#d9f1ef",
+          "200": "#b2e3df",
+          "300": "#8cd4cf",
+          "400": "#65c6bf",
+          "500": "#3fb8af",
+          "600": "#32938c",
+          "700": "#266e69",
+          "800": "#194a46",
+          "900": "#0d2523",
+          "contrastDefaultColor": "light"
+        },
+        "secondary": {
+          "50": "#f2f9f7",
+          "100": "#e5f4ef",
+          "200": "#cce9df",
+          "300": "#b2ddcf",
+          "400": "#99d2bf",
+          "500": "#7fc7af",
+          "600": "#669f8c",
+          "700": "#4c7769",
+          "800": "#335046",
+          "900": "#192823",
+          "contrastDefaultColor": "light"
+        },
+        "tertiary": {
+          "50": "#fbfbf6",
+          "100": "#f8f7ed",
+          "200": "#f0efdc",
+          "300": "#e9e8ca",
+          "400": "#e1e0b9",
+          "500": "#dad8a7",
+          "600": "#aead86",
+          "700": "#838264",
+          "800": "#575643",
+          "900": "#2c2b21",
+          "contrastDefaultColor": "light"
+        }
       }
     }
   }

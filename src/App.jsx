@@ -1,11 +1,13 @@
-import React, { useCallback, useState } from "react";
+import React, { useCallback, useState, useEffect } from "react";
 import isArray from "lodash/isArray";
 import mergeWith from "lodash/mergeWith";
 import omit from "lodash/omit";
 import cloneDeep from "lodash/cloneDeep";
 
-import JsonStub from "./data/json_stub.json";
+import EnJsonStub from "./data/en_json_stub.json";
+import FrJsonStub from "./data/fr_json_stub.json";
 import DeveloperProfile from "./package";
+import { LocaleButton } from "./package/components/banner/user_actions_row/locale_button/locale_button";
 
 const mergeFunction = (objValue, srcValue) => {
     if (!objValue || isArray(objValue)) {
@@ -14,17 +16,26 @@ const mergeFunction = (objValue, srcValue) => {
     return undefined;
 };
 
-const mode = process.env.REACT_APP_MODE || "edit";
+const mode = "readOnly";
+const resumes = {
+  fr: FrJsonStub,
+  en: EnJsonStub
+};
 
 function App() {
-    const [data, setData] = useState(omit(JsonStub, "resumeCustomization"));
+    const [locale, setLocale] = useState("fr");
+    const [data, setData] = useState(omit(resumes[locale], "resumeCustomization"));
 
     const onEdit = useCallback((newData) => setData(mergeWith(cloneDeep(data), newData, mergeFunction)), [
         JSON.stringify(data)
     ]);
-    const [customization, setCustomization] = useState(JsonStub.resumeCustomization || {});
+    const [customization, setCustomization] = useState(resumes[locale].resumeCustomization || {});
 
     const onCustomizationChanged = useCallback(setCustomization, [data]);
+
+    useEffect(() => {
+        setData(resumes[locale]);
+    }, [locale]);
 
     return (
         <DeveloperProfile
@@ -33,7 +44,7 @@ function App() {
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
             options={{
-                locale: "en",
+                locale,
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
                 },
@@ -43,6 +54,15 @@ function App() {
                 },
                 customization
             }}
+            additionalNodes={{
+            banner: {
+                actionsButtons: (
+                    <>
+                        <LocaleButton locale={locale} onClickHandler={() => setLocale(locale !== "en" ? "en" : "fr")} />
+                    </>
+                )
+            }
+        }}
         />
     );
 }

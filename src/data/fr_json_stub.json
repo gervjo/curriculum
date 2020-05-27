@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jonathan Gervais",
-    "label": "Frontend Dev Superhero",
+    "label": "Dév. Frontend super-héros",
     "picture": "https://avatars2.githubusercontent.com/u/19430298",
     "email": "gervjo@gmail.com",
     "phone": "",
     "website": "https://github.com/gervjo",
-    "summary": "Frontend Superhero",
+    "summary": "Frontend super-héros",
     "location": {
       "address": "",
       "postalCode": "",
@@ -30,33 +30,33 @@
   "work": [
     {
       "name": "Baseline",
-      "position": "Front-end developer",
+      "position": "Développeur Front-end - Lead",
       "website": "https://www.baseline.io",
       "startDate": "2018-01-01",
-      "summary": "Responsible for the development of a reusable components and Redux\nconnected containers library build with React to be used by \"brown field\" web\napplication.\nResponsible for the development of a green field web app (serverless) and a\nmobile app both based on React/React-Native & friends.",
-      "location": "Work remotely",
+      "summary": "Responsable du développement d'une librairie de components et de containers Redux réeutilisables basé sur React dans le but d'être utilisé dans une application web de type \"brown field\". \r\n\r\nResponsable du développement d'une application web et d'une application mobile basé sur l'écosystème de React et React Native .",
+      "location": "Télétravail",
       "highlights": [
         "Lead Front-end dev"
       ]
     },
     {
       "name": "Maple Inside",
-      "position": "Front-end developer",
-      "website": "",
+      "position": "Développeur Front-end",
+      "website": "https://www.linkedin.com/company/maple-inside/",
       "startDate": "2017-04-01",
       "endDate": "2017-12-01",
-      "summary": "Responsible for the development of prototypes and web applications based on\nthe React, Redux and GraphQL libraries. Everything we developed was based\non a microservices architecture.",
-      "location": "Quebec city, Qc, CA",
+      "summary": "Responsable du développement Front-end de prototypes et d'applications web basé sur les librairies React, Redux et GraphQL. Tout ce que nous avons développé était basé sur une architecture de microservices",
+      "location": "Télétravail + Québec, Qc, CA",
       "highlights": []
     },
     {
       "name": "DashThis",
-      "position": "Front-end developer",
+      "position": "Développeur Front-end",
       "website": "https://dashthis.com/",
       "startDate": "2016-05-01",
       "endDate": "2017-02-01",
-      "summary": " ",
-      "location": "Quebec city, Qc, CA",
+      "summary": "Développement d'une nouvelle plateforme sous React & Redux. Refonte complète du frontend et maintenante de la plateforme legacy (HTML, CSS, JS, ASP.Net, Jekyll & Liquid).",
+      "location": "Québec, Qc, CA",
       "highlights": []
     },
     {
@@ -65,8 +65,8 @@
       "website": "",
       "startDate": "2015-07-01",
       "endDate": "2016-02-01",
-      "summary": "UI conception and development (front-end & back-end) of sales pages.\nMaintenance and continuous development of legacy platforms.",
-      "location": "Quebec city, Qc, CA",
+      "summary": "Conception UI et développement (front-end & back-end) de pages de ventes. Soutien (front-end et back-end) et mise à jours d'anciens systèmes (legacy).",
+      "location": "Québec, Qc, CA",
       "highlights": []
     },
     {
@@ -75,26 +75,26 @@
       "website": "",
       "startDate": "2012-08-01",
       "endDate": "2015-07-01",
-      "summary": "As a Front-End developer, I was in charge of building different high traffic (1M\n+ monthly unique views) websites and sales pages. I was also responsible for\nthe development of different internal tools used by many internal departments.",
-      "location": "Quebec city, Qc, CA",
+      "summary": "En tant que développeur Front-End, j'étais responsable de l'intégration de sites et pages de vente à haut traffic (1M+ vues uniques mensuelles). Design et développement d'outils pour faciliter le travail des différents départements internes.",
+      "location": "Québec, Qc, CA",
       "highlights": []
     }
   ],
   "volunteer": [
     {
       "organization": "Dodgeball Matane",
-      "position": "Director",
+      "position": "Directeur",
       "website": "https://www.facebook.com/groups/2257422927907601/",
       "startDate": "2019-05-01",
-      "summary": "",
+      "summary": "Dodgeball Matane est une ligue de dodgeball en développement.",
       "highlights": []
     },
     {
       "organization": "Fédération Québécoise de Dodgeball",
-      "position": "Member of the Board of directors",
+      "position": "Membre du conseil d'administration",
       "website": "https://www.facebook.com/DodgeballFQD/",
       "startDate": "2020-04-01",
-      "summary": "",
+      "summary": "La Fédération québécoise de dodgeball a pour mission de développer le dodgeball au Québec en rassemblant les diverses organisations de la province et en permettant aux joueurs de compétitonner au niveau canadien.",
       "highlights": []
     }
   ],
@@ -129,9 +129,26 @@
       ]
     },
     {
+      "name": "React Native",
+      "level": "Advanced",
+      "value": 70,
+      "keywords": [
+        "React Native",
+        "Javascript",
+        "Android",
+        "iOS"
+      ]
+    },
+    {
       "name": "Redux",
       "level": "Master",
       "value": 80,
+      "keywords": []
+    },
+    {
+      "name": "Typescript",
+      "level": "Intermediate",
+      "value": 50,
       "keywords": []
     },
     {
@@ -151,18 +168,28 @@
         "CSS",
         "Javascript"
       ]
+    },
+    {
+      "name": "HTML",
+      "level": "Master",
+      "value": 90
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "value": 90
     }
   ],
   "languages": [
     {
-      "language": "French",
+      "language": "Français",
       "value": 100,
-      "fluency": "Native speaker"
+      "fluency": "Langue maternelle"
     },
     {
-      "language": "English",
+      "language": "Anglais",
       "value": 80,
-      "fluency": "Comfortable"
+      "fluency": "Très à l'aise"
     }
   ],
   "interests": [
@@ -179,23 +206,18 @@
       "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
     }
   ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference..."
-    }
-  ],
+  "references": [],
   "projects": [
     {
       "name": "Pokemon Masters - Sync Grid Helper",
-      "description": "Pokemon Masters - Sync Grid Helper - is a helper tool that lets users plan the usage of Sync orbs of specific pokemons from the popular video game `Pokemon Masters`. https://pokemon-masters-stuff.github.io",
+      "description": "Pokemon Masters - Sync Grid Helper - est un outil qui permet les utilisateurs à planifier l'utilisation de Sync Orbs pour le populaire jeu vidéo `Pokemon Masters`. https://pokemon-masters-stuff.github.io",
       "images": []
     }
   ],
   "specific": {
     "basics": {
       "visaSponsorship": false,
-      "personalDescription": "From a young age, being passionate about building stuff, automation and Batman, becoming a web worker (pun intended) was a natural choice.\n\nWith a little more than 8 years of expertise in front end web development, I can now say that my passion for Batman is totally useless and hasn't brought me much professionally, except maybe for the analytical mindset (yeah, I definitely got that from Batman).\n\nThe way I see web development today is that it needs research, preparation, devotion and passion (maybe Batman taught me more than I thought).\n\nReact, Redux, Node.js, these are all part of my playground at the moment."
+      "personalDescription": "Depuis un très jeune âge, je suis passionné par la construction, l’automatisation et Batman. Devenir un “travailleur du web” est donc devenu un choix naturel!\n\nAvec un peu plus de 8 années d’expérience, je peux maintenant dire que ma passion pour Batman m’a été totalement inutile professionnellement... Peut-être à l’exception de mon esprit d’analyse (définitivement, j’ai développé ce trait de personnalité grâce à Batman!).\r\n\r\nComment je vois le web aujourd’hui? Le web nécessite recherche, préparation, dévotion et passion (finalement, j’ai dû en apprendre plus de Batman que je ne le pensais).\r\n\r\nReact & friends + React Native, Redux, Node.js font tous partie de mon terrain de jeu en ce moment."
     },
     "dreamJob": {
       "locations": [
@@ -203,7 +225,7 @@
           "name": "Matane, Québec"
         }
       ],
-      "remoteFrequency": "regularly"
+      "remoteFrequency": ""
     },
     "currentJob": {
       "issues": {
