@@ -1,7 +1,7 @@
 {
     "name": "@gervjo/curriculum",
     "version": "1.0.0",
-    "homepage" : "https://gervjo.github.io/curriculum/",
+    "homepage": "https://gervjo.github.io/curriculum/",
     "description": "My developer profile",
     "scripts": {
         "start": "touch .env.local && sh -ac 'sh .env.${NODE_ENV:-local}; PORT=${PORT:-3000} EXTEND_ESLINT=true BROWSER=none react-scripts start'",

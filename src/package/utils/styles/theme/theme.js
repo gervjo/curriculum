@@ -28,8 +28,8 @@ export const DEFAULT_THEME = Object.freeze({
             imageSource: "https://cdn.filestackcontent.com/8I2wVnCRTFxypXRYLRsp"
         },
         cards: {
-            height: 470,
-            width: 470,
+            height: 500,
+            width: 500,
             borderRadius: 20,
             default: {
                 backgroundColor: "dark",

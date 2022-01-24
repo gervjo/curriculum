@@ -29,10 +29,21 @@
   },
   "work": [
     {
-      "name": "Baseline",
+      "name": "Cube Noir",
       "position": "Front-end developer",
+      "website": "https://cubenoir.ca",
+      "startDate": "2020-06-01",
+      "endDate": "2021-12-01",
+      "summary": " ",
+      "location": "Matane",
+      "highlights": []
+    },
+    {
+      "name": "Baseline",
+      "position": "Front-end developer - Lead",
       "website": "https://www.baseline.io",
       "startDate": "2018-01-01",
+      "endDate": "2020-06-01",
       "summary": "Responsible for the development of a reusable components and Redux\nconnected containers library build with React to be used by \"brown field\" web\napplication.\nResponsible for the development of a green field web app (serverless) and a\nmobile app both based on React/React-Native & friends.",
       "location": "Work remotely",
       "highlights": [
